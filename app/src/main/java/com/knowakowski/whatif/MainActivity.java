@@ -1,4 +1,4 @@
-package com.example.whatif;
+package com.knowakowski.whatif;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,8 +11,16 @@ import android.speech.RecognizerIntent;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
@@ -34,27 +42,67 @@ public class MainActivity extends AppCompatActivity {
     private MediaPlayer mMediaPlayer;
     private TypedArray ifferArray;
     private String textToSend = "";
-    private boolean isMediaPlayerPrepared = true;
+
+    private int clickCounter = 0;
+    private int showAdAfterCount = 10;
+
+    private InterstitialAd mInterstitialAd;
+
+    private Toast toast;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
+
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+        AdView mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
+        prepareAD();
+
+        ifferArray = getResources().obtainTypedArray(R.array.iffer);
+        mMediaPlayer = new MediaPlayer();
 
         Intent checkIntent = new Intent();
         checkIntent.setAction(TextToSpeech.Engine.ACTION_CHECK_TTS_DATA);
         startActivity(checkIntent);
-
-        ifferArray = getResources().obtainTypedArray(R.array.iffer);
-        mMediaPlayer = new MediaPlayer();
     }
 
-    public void rand_new_if(View view) {
-        //Toast.makeText(this, "Saying: " + "A GDYBY TAK", Toast.LENGTH_LONG).show();
+    private void prepareAD() {
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-3981376163700477/8152656689");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+    }
+
+    public void randNewIffer(View view) {
         Random random = new Random();
         textToSend = ifferArray.getString(random.nextInt(ifferArray.length()));
         System.out.println(textToSend);
         new Thread(runnableSend).start();
+
+        if (toast != null) {
+            toast.cancel();
+        }
+
+        toast = Toast.makeText(this, textToSend, Toast.LENGTH_LONG);
+        toast.show();
+
+        clickCounter++;
+        if (clickCounter >= showAdAfterCount) {
+            if (mInterstitialAd.isLoaded()) {
+                mInterstitialAd.show();
+            }
+            prepareAD();
+            clickCounter = 0;
+        }
+
     }
 
     private Runnable runnableSend = new Runnable() {
@@ -124,7 +172,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void stopAudio() {
-        if (mMediaPlayer != null && mMediaPlayer.isPlaying() && isMediaPlayerPrepared) {
+        if (mMediaPlayer != null && mMediaPlayer.isPlaying()) {
             mMediaPlayer.stop();
             mMediaPlayer.reset();
         }

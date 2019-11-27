@@ -1,4 +1,4 @@
-package com.example.whatif;
+package com.knowakowski.whatif;
 
 import org.junit.Test;
 

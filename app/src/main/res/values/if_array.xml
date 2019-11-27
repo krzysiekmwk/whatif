@@ -1,9 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="iffer">
-        <item>A gdyby tak... 1</item>
-        <item>A gdyby tak... 2</item>
-        <item>A gdyby tak... 3</item>
+        <item>A gdyby tak... Wyjść na spacer?</item>
+        <item>A gdyby tak... Zjeść coś?</item>
+        <item>A gdyby tak... Wypić herbatę?</item>
+        <item>A gdyby tak... Zastanowić się nad życiem?</item>
+        <item>A gdyby tak... Kupić książkę?</item>
+        <item>A gdyby tak... Oglądnąć film?</item>
+        <item>A gdyby tak... Odezwać się do przyjaciela z dzieciństwa?</item>
+        <item>A gdyby tak... Iść na zakupy?</item>
+        <item>A gdyby tak... Upiec ciasto?</item>
+        <item>A gdyby tak... Wyjechać na wakacje?</item>
+        <item>A gdyby tak... Zadzwonić do kogoś?</item>
+        <item>A gdyby tak... Przez tydzień nie korzystać z mediów społecznościowych?</item>
+        <item>A gdyby tak... Spotkać się z przyjacielem?</item>
+        <item>A gdyby tak... Przeczytać losowy artykuł w internecie?</item>
+        <item>A gdyby tak... Obejrzeć bajkę z dzieciństwa?</item>
+        <item>A gdyby tak... Napisać wiersz?</item>
+        <item>A gdyby tak... Wypić szklankę wody?</item>
+        <item>A gdyby tak... Zrobić coś dla środowiska?</item>
+        <item>A gdyby tak... Powiedzieć komuś komplement?</item>
+        <item>A gdyby tak... Zjeść coś czego nigdy nie próbowałeś?</item>
+        <item>A gdyby tak... Wrócić do domu inną drogą niż zwykle?</item>
+        <item>A gdyby tak... Uśmiechnąć się do kogoś?</item>
+        <item>A gdyby tak... Podarować komuś coś bez okazji?</item>
+        <item>A gdyby tak... Nauczyć się nowego języka?</item>
+        <item>A gdyby tak... Zjeść kolację na śniadanie?</item>
+        <item>A gdyby tak... Zjeść deser przed obiadem?</item>
+        <item>A gdyby tak... Nie deptać po krawędziach płyt chodnikowych?</item>
+        <item>A gdyby tak... Przeglądnąć swoje zdjęcia?</item>
+        <item>A gdyby tak... Zrobić ciekawe zdjęcie?</item>
+        <item>A gdyby tak... Wziąć udział w konkursie?</item>
+        <item>A gdyby tak... Porzucić zły nawyk?</item>
+        <item>A gdyby tak... Chodzić schodami zamiast jeździć windą?</item>
+        <item>A gdyby tak... Prowadzić dziennik?</item>
+        <item>A gdyby tak... Nie narzekać?</item>
+        <item>A gdyby tak... Pomedytować?</item>
+        <item>A gdyby tak... Zrobić coś dla siebie?</item>
+        <item>A gdyby tak... Zamówić jedzenie na wynos?</item>
+        <item>A gdyby tak... Zapisać się na jakiś kurs?</item>
+        <item>A gdyby tak... Wziąć długą kąpiel?</item>
+        <item>A gdyby tak... Obejrzeć ulubiony film?</item>
+        <item>A gdyby tak... Zrobić porządek w szafie?</item>
+        <item>A gdyby tak... Obejrzeć zabawny filmik ze zwierzętami?</item>
+        <item>A gdyby tak... Wyznać szczerze miłość?</item>
+        <item>A gdyby tak... Zaśpiewać pod prysznicem?</item>
+        <item>A gdyby tak... Wypić jedną kawę mniej?</item>
+        <item>A gdyby tak... Zrobić sobie wagary?</item>
+        <item>A gdyby tak... Kupić kupon na grę losową?</item>
+        <item>A gdyby tak... Nie sprzątać dzisiaj?</item>
+        <item>A gdyby tak... Odwiedzić ulubiony park?</item>
+        <item>A gdyby tak... Poćwiczyć trochę?</item>
+        <item>A gdyby tak... Posprzątać portfel?</item>
+        <item>A gdyby tak... Zrobić porządek w lodówce?</item>
+        <item>A gdyby tak... Oszczędzać pieniądze?</item>
+        <item>A gdyby tak... Porozmawiać z rodzicami?</item>
+        <item>A gdyby tak... Posadzić roślinkę?</item>
+        <item>A gdyby tak... Zmienić zdjęcie profilowe w mediach społecznościowych?</item>
+        <item>A gdyby tak... Iść do kina?</item>
+        <item>A gdyby tak... Iść do muzeum?</item>
+        <item>A gdyby tak... Obejrzeć jakiś filmik motywacyjny?</item>
+        <item>A gdyby tak... Iść na masaż?</item>
+        <item>A gdyby tak... Iść na rower?</item>
+        <item>A gdyby tak... Przejechać się hulajnogą?</item>
+        <item>A gdyby tak... Opowiedzieć komuś dowcip?</item>
+        <item>A gdyby tak... Zacząć segregować śmieci?</item>
+        <item>A gdyby tak... Zatańczyć przed lustrem?</item>
+        <item>A gdyby tak... Przeprosić kogoś?</item>
+        <item>A gdyby tak... Spać bez piżamy?</item>
+        <item>A gdyby tak... Przeczytać swój horoskop?</item>
+        <item>A gdyby tak... Zjeść owoc, którego jeszcze nie jadłeś?</item>
+        <item>A gdyby tak... Zmienić fryzurę?</item>
+        <item>A gdyby tak... Zmienić kolor włosów?</item>
+        <item>A gdyby tak... Kupić nową rzecz?</item>
+        <item>A gdyby tak... Iść na basen?</item>
+        <item>A gdyby tak... Napić się soku?</item>
+        <item>A gdyby tak... Nie jeść słodyczy?</item>
+        <item>A gdyby tak... Zrobić pizzę?</item>
+        <item>A gdyby tak... Dać jakiś produkt spożywczy do lodówki społecznej?</item>
+        <item>A gdyby tak... Kupować warzywa na targu?</item>
+        <item>A gdyby tak... Rozwiązać krzyżówkę?</item>
+        <item>A gdyby tak... Rozwiązać sudoku?</item>
+        <item>A gdyby tak... Rozwiązać jakąś zagadkę?</item>
+        <item>A gdyby tak... Iść do zoo?</item>
+        <item>A gdyby tak... Spać godzinę dłużej?</item>
+        <item>A gdyby tak... Zrobić piknik?</item>
+        <item>A gdyby tak... Nie używać budzika?</item>
+        <item>A gdyby tak... Zjeść kanapkę z kremem czekoladowym?</item>
+        <item>A gdyby tak... Iść do teatru?</item>
+        <item>A gdyby tak... Nie oglądać telewizora?</item>
+        <item>A gdyby tak... Zjeść chipsy w łóżku?</item>
+        <item>A gdyby tak... Zostać wolontariuszem?</item>
+        <item>A gdyby tak... Posłuchać disco polo?</item>
+        <item>A gdyby tak... Posłuchać ulubionej piosenki?</item>
+        <item>A gdyby tak... Iść z psem na spacer?</item>
+        <item>A gdyby tak... Sprbować jedzenia którego nie lubisz?</item>
+        <item>A gdyby tak... Założyć dwie różne skarpetki?</item>
+        <item>A gdyby tak... Przytulić kogoś?</item>
+        <item>A gdyby tak... Odwiedzić dalekich krewnych?</item>
+        <item>A gdyby tak... Zadzwonić na przypadkowy numer z twojego telefonu?</item>
+        <item>A gdyby tak... Zrobić listę swoich sukcesów i porażek?</item>
+        <item>A gdyby tak... Zagrać w karty?</item>
+        <item>A gdyby tak... Zmienić pracę?</item>
+        <item>A gdyby tak... Wysłać CV?</item>
+        <item>A gdyby tak... uaktualnić CV?</item>
+        <item>A gdyby tak... Spróbować sportu którego nie uprawiałeś?</item>
+        <item>A gdyby tak... Pokolorować kolorowankę?</item>
+        <item>A gdyby tak... Wysłać pikantnego SMS do partnera/partnerki?</item>
+        <item>A gdyby tak... Robić własnoręcznie mydło?</item>
+        <item>A gdyby tak... Umyć okna?</item>
+        <item>A gdyby tak... Zjeść coś kalorycznego?</item>
+        <item>A gdyby tak... Wyjść na deszcz bez parasolki?</item>
+        <item>A gdyby tak... Poszukać czterolistnej koniczyny?</item>
+        <item>A gdyby tak... Pogadać ze swoim zwierzęciem?</item>
+        <item>A gdyby tak... Zjeść śniadanie w łóżku?</item>
+        <item>A gdyby tak... Napisać list do siebie za 5 lat?</item>
+        <item>A gdyby tak... Napisać list do siebie za 10 lat?</item>
+        <item>A gdyby tak... Napisać list do siebie za 20 lat?</item>
+        <item>A gdyby tak... Napisać list do swoich dzieci za 10 lat?</item>
+        <item>A gdyby tak... Poleżeć na trawie?</item>
+        <item>A gdyby tak... Pozgadywać kształty chmur?</item>
+        <item>A gdyby tak... Robić budżet?</item>
+        <item>A gdyby tak... Zjeść gofry?</item>
+        <item>A gdyby tak... Ułożyć puzzle?</item>
+        <item>A gdyby tak... Zagrać w grę planszową?</item>
+        <item>A gdyby tak... Zrobić listę marzeń?</item>
+        <item>A gdyby tak... Zrobić listę celów do spełnienia?</item>
+        <item>A gdyby tak... Zrobić podstawowe badania?</item>
+        <item>A gdyby tak... Poseidzieć na ławę i poobserwować otoczenie?</item>
+        <item>A gdyby tak... Wyjść do klubu?</item>
+        <item>A gdyby tak... Zostawić współpracownikowi miłą karteczkę?</item>
+        <item>A gdyby tak... Zostawić partnerowi/partnerce miłą karteczkę?</item>
+        <item>A gdyby tak... Powiedzieć ukochanemu/ukochanej za co go/ją cenię?</item>
+        <item>A gdyby tak... Zdrzemnąć się?</item>
+        <item>A gdyby tak... Zjeść frytki z majonezem?</item>
+        <item>A gdyby tak... Zaprosić kogoś na randkę?</item>
+        <item>A gdyby tak... Wyjść na obiad do restauracji?</item>
+        <item>A gdyby tak... Wyjść na imprezę do rana?</item>
+        <item>A gdyby tak... Obejrzeć najgłupszy serial jaki znasz?</item>
+        <item>A gdyby tak... Kupić sobie prezent?</item>
+        <item>A gdyby tak... Zjedz ciasto na śniadanie?</item>
+        <item>A gdyby tak... Iść do fryzjera?</item>
+        <item>A gdyby tak... Spędzić dzień na zabawie?</item>
     </string-array>
 
 </resources>

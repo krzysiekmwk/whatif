@@ -1,4 +1,4 @@
-package com.example.whatif;
+package com.knowakowski.whatif;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.whatif", appContext.getPackageName());
+        assertEquals("com.knowakowski.whatif", appContext.getPackageName());
     }
 }
